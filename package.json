@@ -1,5 +1,7 @@
 {
-  "name": "v3-lib-0.8",
+  "name": "@arrakisfi/v3-lib-0.8",
+  "license": "MIT",
+  "version": "0.1.0",
   "scripts": {
     "build": "yarn compile && npx tsc",
     "compile": "npx hardhat compile --force",
@@ -40,5 +42,22 @@
   },
   "lint-staged": {
     "*.{ts,js}": "eslint -c .eslintrc.json"
-  }
+  },
+  "description": "uniswap v3 math sol 0.8",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ArrakisFinance/v3-lib-0.8.git"
+  },
+  "keywords": [
+    "uniswap",
+    "v3",
+    "math",
+    "solidity",
+    "0.8"
+  ],
+  "author": "Arrakis",
+  "bugs": {
+    "url": "https://github.com/ArrakisFinance/v3-lib-0.8/issues"
+  },
+  "homepage": "https://github.com/ArrakisFinance/v3-lib-0.8#readme"
 }
