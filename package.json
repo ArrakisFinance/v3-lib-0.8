@@ -1,7 +1,10 @@
 {
   "name": "@arrakisfi/v3-lib-0.8",
+  "version": "0.1.2",
   "license": "MIT",
-  "version": "0.1.1",
+  "files": [
+    "contracts"
+  ],
   "scripts": {
     "build": "yarn compile && npx tsc",
     "compile": "npx hardhat compile --force",
