@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL-2.0-or-later
 pragma solidity 0.8.13;
 
 /// @title Math library for computing sqrt prices from ticks and vice versa

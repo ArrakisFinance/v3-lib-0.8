@@ -1,6 +1,4 @@
-// SPDX-License-Identifier: MIT
-pragma solidity >=0.5.0;
-
+// SPDX-License-Identifier: GPL-2.0-or-later
 import {FullMath} from "./FullMath.sol";
 import {FixedPoint96} from "@uniswap/v3-core/contracts/libraries/FixedPoint96.sol";
 
